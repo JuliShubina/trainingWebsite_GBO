@@ -117,7 +117,7 @@ header {
 
 .icon-arrow-down {
   position: absolute;
-  z-index: 2;
+  z-index: 10;
   left: 50%;
   top: calc(100% - 48px);
   fill: rgba(189, 189, 189, 0.3);
