@@ -2,36 +2,39 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>auto-gbo-service</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="container">
-          <div class="header__inner">
-            <button class="header__burger-btn" id="burger"><span></span><span></span><span></span></button>
-            <a href="#" class="logo">
-              <div>auto-gbo-service</div>
-            </a>
-            <nav class="menu">
-              <ul class="menu__list">
-                <li class="menu__list-item"><a href="#" class="menu__list-link">Головна</a></li>
-                <li class="menu__list-item"><a href="#" class="menu__list-link">Послуги</a></li>
-                <li class="menu__list-item"><a href="#" class="menu__list-link">О нас</a></li>
-                <li class="menu__list-item"><a href="#" class="menu__list-link">Контакти</a></li>
-              </ul>
-            </nav>
-          </div>
+        <div class="header__inner">
+          <button class="header__burger-btn" id="burger"><span></span><span></span><span></span></button>
+          <a href="#" class="logo">
+            <div>auto-gbo-service</div>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Головна</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Послуги</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">О нас</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Контакти</a></li>
+            </ul>
+          </nav>
         </div>
       </header>
       <main class="main">
-        <section class="hero hero__background">
+        <section class="hero intersection hero__background">
           <div class="container">
             <div class="hero__content">
               <h1 class="hero__content-title">ГБО для вашого авто</h1>
               <h2>надійність, економія, комфорт</h2>
+              <div class="hero__content-icon">
+                <svg>
+                  <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z" />
+                </svg>
+              </div>
             </div>
           </div>
         </section>
@@ -64,10 +67,18 @@
               <p>Довіряючи нам, ви вибираєте якість, безпеку та професійний підхід до кожного етапу роботи з вашим автомобілем.</p>
             </div>
           </div>
+          <div class="info-icon-container">
+            <svg class="info-icon" width="24" height="24">
+              <use href="./images/svg-sprite.svg#icon-info"></use>
+            </svg>
+          </div>
         </section>
       </main>
-      <footer class="footer"><div class="footer__inner">Записатися на сервіс: 099 548 57 67</div></footer>
+      <footer class="footer intersection"><div class="footer__inner">Записатися на сервіс: 099 548 57 67</div></footer>
     </div>
     <script src="./js/burger.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/hero__cotent-icon.js"></script>
+    <script src="./js/intersection.js"></script>
   </body>
 </html>
