@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta name="description" content="Ми пропонуємо повний спектр послуг з обслуговування ГБО: від встановлення системи до її регулярного технічного обслуговування та діагностики. " />
     <title>ГБО для вашего авто</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="./css/services.css" />
   </head>
@@ -44,7 +51,11 @@
             <div class="services__cards">
               <div class="services__card">
                 <h3 class="services__card-title">Налаштування та діагностика ГБО</h3>
-                <ul class="services__text">
+                <div class="arrow-container">
+                  <i data-target="arrow1" class="fa-solid fa-chevron-down icon-arrow"></i>
+                </div>
+
+                <ul id="arrow1" class="services__text">
                   <li class="services__text-item">Налаштування електронного блоку керування для оптимальної роботи на газі.</li>
                   <li class="services__text-item">Налаштування подачі газу для економії палива та збереження потужності в системах євро 2.</li>
                   <li class="services__text-item">Коригування роботи форсунок та редуктора.</li>
@@ -56,7 +67,8 @@
               </div>
               <div class="services__card">
                 <h3 class="services__card-title">Обслуговування та заміна компонентів ГБО</h3>
-                <ul class="services__text">
+                <i data-target="arrow2" class="fa-solid fa-chevron-down icon-arrow"></i>
+                <ul id="arrow2" class="services__text">
                   <li class="services__text-item">Регулярне технічне обслуговування ГБО кожні 10-15 тисяч кілометрів.</li>
                   <li class="services__text-item">Заміна фільтрів грубого та тонкого очищення газу.</li>
                   <li class="services__text-item">Заміна свічок запалювання (рекомендується використовувати спеціальні свічки для ГБО).</li>
@@ -72,7 +84,8 @@
               </div>
               <div class="services__card">
                 <h3 class="services__card-title">Модернізація ГБО та додаткові послуги</h3>
-                <ul class="services__text">
+                <i data-target="arrow3" class="fa-solid fa-chevron-down icon-arrow"></i>
+                <ul id="arrow3" class="services__text">
                   <li class="services__text-item">Встановлення додаткових датчиків та систем контролю.</li>
                   <li class="services__text-item">Модернізація системи для покращення продуктивності та економічності.</li>
                   <li class="services__text-item">Перенесення газового балона (наприклад, з багажника під днище).</li>
@@ -84,7 +97,6 @@
                   <li class="services__text-item">Промивання бензинових форсунок.</li>
                   <li class="services__text-item">Діагностика та промивання системи охолодження автомобіля.</li>
                 </ul>
-                <p class="services_text"></p>
               </div>
             </div>
           </div>
@@ -99,7 +111,7 @@
     </div>
     <script src="./js/burger.js"></script>
     <script src="./js/header.js"></script>
-
+    <script src="./js/spoiler.js"></script>
     <script src="./js/intersection.js"></script>
   </body>
 </html>
