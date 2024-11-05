@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="Ми пропонуємо повний спектр послуг з обслуговування ГБО: від встановлення системи до її регулярного технічного обслуговування та діагностики. " />
+    <title>ГБО для вашего авто</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/contacts.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__inner">
+          <button class="header__burger-btn" id="burger"><span></span><span></span><span></span></button>
+          <a href="./index.html" class="logo">
+            <div>auto-gbo-service</div>
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item"><a href="./index.html" class="menu__list-link">Головна</a></li>
+              <li class="menu__list-item"><a href="./services .html" class="menu__list-link">Послуги</a></li>
+              <li class="menu__list-item"><a href="./about.html" class="menu__list-link">Про нас</a></li>
+              <li class="menu__list-item"><a href="#" class="menu__list-link">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero intersection hero__background">
+          <div class="container">
+            <div class="hero__content">
+              <h1 class="hero__content-title">Наші контакти</h1>
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="container">
+            <div class="working-hours">
+              <p>
+                <span>Щоб записатись, зателефонуйте або напишіть нам: <a class="working-hours__phone" href="tel:+380992665168">+38 099 548 57 67</a></span>
+              </p>
+              <p>Понеділок – п'ятниця: 9:00–15:00</p>
+              <p>Субота: 9:00–15:00</p>
+              <p>Неділя: вихідний</p>
+            </div>
+          </div>
+        </section>
+        <section class="map">
+          <div class="container">
+            <div class="map__content">
+              <p class="map__content-text"><span>Ми знаходимося за адресою м. Дніпро, вул. Марії Лисиченко, 10. З нетерпінням чекаємо на вас!</span></p>
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2642.5999247731484!2d35.03440857594106!3d48.5217336243398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d958bea63a0a01%3A0xc90a5f6c52c074c5!2z0YPQuy4g0JzQsNGA0LjQuCDQm9C40YHQuNGH0LXQvdC60L4sIDEwLCDQlNC90LXQv9GALCDQlNC90LXQv9GA0L7Qv9C10YLRgNC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNDkwMDA!5e0!3m2!1sru!2sua!4v1730793941810!5m2!1sru!2sua"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="info-icon-container">
+          <svg class="info-icon" width="24" height="24">
+            <use href="./images/svg-sprite.svg#icon-info"></use>
+          </svg>
+        </div>
+      </main>
+      <footer class="footer intersection"><div class="footer__inner">Записатися на сервіс: 099 548 57 67</div></footer>
+    </div>
+    <script src="./js/burger.js"></script>
+    <script src="./js/header.js"></script>
+
+    <script src="./js/intersection.js"></script>
+  </body>
+</html>
