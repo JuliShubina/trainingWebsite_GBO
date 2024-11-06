@@ -15,10 +15,6 @@ body {
   .container {
     max-width: none;
     width: 90vw;
-    /* border-color: rgb(255, 255, 255, 1);
-    border-radius: 0px;
-    border-style: solid;
-    border-width: 6px; */
   }
 }
 
@@ -239,6 +235,7 @@ h3 {
 
 .services__card-title {
   margin-bottom: 24px;
+  padding-right: 40px;
 }
 
 .services__text li {
@@ -252,14 +249,15 @@ h3 {
   }
 }
 
-.services__card-title::after {
+.services__card::after {
   margin: 24px 0px;
   display: block;
   content: "";
-  border: 0.05px solid rgba(0, 0, 0, 1);
+  border: 0.05px solid #00000026;
 }
 
 .icon-arrow {
+  color: darkgray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,8 +265,6 @@ h3 {
   z-index: 2;
   right: 0px;
   top: 0px;
-
-  fill: gray;
   width: 48px;
   height: 48px;
 }
