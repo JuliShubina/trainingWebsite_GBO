@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:regular,600,800&display=swap");
 body {
+  position: relative;
+  z-index: -50;
   color: rgb(33, 33, 33);
   font-family: "Playfair Display", serif;
 }
@@ -17,8 +19,14 @@ body {
     width: 90vw;
   }
 }
+main {
+  position: relative;
+  z-index: -100;
+}
 
 .wrapper {
+  position: relative;
+  z-index: -50;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -207,23 +215,17 @@ p {
 
 .hero__content-icon {
   position: absolute;
-
-  z-index: 1;
+  width: 40px;
+  height: 40px;
+  z-index: 10000000000;
   left: 50%;
+  font-size: 20px;
   top: calc(100% - 48px);
-  fill: rgba(189, 189, 189, 0.3);
-
-  width: 48px;
-  height: 48px;
 }
 .hero__content-icon:hover {
   fill: rgba(189, 189, 189, 1);
 }
 
-.hero__content-icon svg {
-  width: 48px;
-  height: 48px;
-}
 /************************services-section*********************/
 .services__title::before {
   display: block;
@@ -279,13 +281,12 @@ p {
 }
 
 .info-icon {
-  fill: rgba(32, 33, 36, 0.8);
-  color: rgb(60, 64, 67);
-  width: 16px;
-  height: 16px;
+  color: rgb(12, 89, 147);
+  font-size: 25px;
   margin: 0 auto;
   align-self: center;
 }
+
 .info-icon-container {
   position: fixed;
   z-index: 2;
@@ -294,10 +295,13 @@ p {
   display: flex;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
-  width: 28px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
 }
 
+/* .info-icon-container:hover{
+
+} */
 /******************** footer ****************************/
 .footer {
   background: #000;
