@@ -274,7 +274,6 @@ h3 {
 }
 
 .icon-arrow:hover {
-  fill: rgba(189, 189, 189, 1);
   background-color: rgba(189, 189, 189, 0.2);
   border-radius: 50%;
 }

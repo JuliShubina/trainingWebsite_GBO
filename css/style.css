@@ -214,6 +214,9 @@ p {
 }
 
 .hero__content-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 40px;
   height: 40px;
@@ -223,7 +226,9 @@ p {
   top: calc(100% - 48px);
 }
 .hero__content-icon:hover {
-  fill: rgba(189, 189, 189, 1);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  /* background-color: rgb(12, 89, 147); */
 }
 
 /************************services-section*********************/
