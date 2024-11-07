@@ -11,10 +11,27 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+@media (max-width: 1200px) {
+  .container {
+    max-width: 992px; /* для экранов шириной до 1200px */
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 768px; /* для экранов шириной до 992px */
+  }
+}
+
 @media (max-width: 768px) {
   .container {
-    max-width: none;
-    width: 90vw;
+    max-width: 576px; /* для экранов шириной до 768px */
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%; /* для мобильных устройств, используем 100% ширины */
   }
 }
 
