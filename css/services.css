@@ -25,7 +25,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 576px; /* для экранов шириной до 768px */
+    max-width: 700px; /* для экранов шириной до 768px */
   }
 }
 
@@ -254,11 +254,6 @@ h3 {
   padding-right: 40px;
 }
 
-.services__text li {
-  padding: 7px 0px;
-  line-height: 30px;
-  font-size: calc(16px + 3 * (100vw / 1230));
-}
 @media (max-width: 768px) {
   .services__text li {
     font-size: calc(16px + (3 + 3 * 0.7) * ((100vw - 320px) / 1230));
