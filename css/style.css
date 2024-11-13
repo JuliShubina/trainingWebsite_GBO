@@ -8,27 +8,35 @@ body {
   font-family: "Playfair Display", serif;
 }
 
+:root {
+  --container-width: 1230px; /* базовое значение */
+}
+
 .container {
-  max-width: 1230px;
+  max-width: var(--container-width);
   margin: 0 auto;
   padding: 0 15px;
 }
 
 @media (max-width: 1200px) {
-  .container {
-    max-width: 992px; /* для экранов шириной до 1200px */
+  :root {
+    --container-width: 992px; /* для экранов шириной до 1200px */
   }
 }
-
+@media (max-width: 1024px) {
+  :root {
+    --container-width: 860px;
+  }
+}
 @media (max-width: 992px) {
-  .container {
-    max-width: 768px; /* для экранов шириной до 992px */
+  :root {
+    --container-width: 768px; /* для экранов шириной до 992px */
   }
 }
 
 @media (max-width: 768px) {
-  .container {
-    max-width: 576px; /* для экранов шириной до 768px */
+  :root {
+    --container-width: 576px; /* для экранов шириной до 768px */
   }
 }
 
@@ -55,11 +63,11 @@ main {
   flex-grow: 1;
 }
 h2 {
-  font-size: calc(30px + 20 * (100vw / 1230));
+  font-size: calc(28px + 10 * (100vw / 1230));
 }
 @media (max-width: 768px) {
   h2 {
-    font-size: calc(30px + (20 + 20 * 0.7) * ((100vw - 320px) / 1230));
+    font-size: calc(28px + (10 + 10 * 0.7) * ((100vw - 320px) / 1230));
   }
 }
 
@@ -91,7 +99,6 @@ p {
   height: 56px;
   z-index: 10;
   padding: 0px 15px 0px 15px;
-  /* background: black; */
 }
 .header__inner {
   padding: 17px 0;
@@ -299,13 +306,14 @@ p {
 
 .services__text p {
   text-align: justify;
-
+  text-indent: 1.5em;
   line-height: 25.76px;
   margin-top: 16px;
 }
 
 .info-icon {
   color: rgb(12, 89, 147);
+
   font-size: 25px;
   margin: 0 auto;
   align-self: center;
@@ -315,12 +323,28 @@ p {
   position: fixed;
   z-index: 2;
   top: 90vh;
-  left: calc((100vw - 1230px) / 2 - 40px);
+  left: calc(((100vw - var(--container-width)) / 2) / 2 - 15px);
   display: flex;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   width: 40px;
   height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 645px) {
+  .info-icon-container {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    top: 20px;
+    left: auto;
+    z-index: 120;
+  }
 }
 
 /******************** footer ****************************/
