@@ -127,6 +127,9 @@ p {
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
+.menu__list-link span {
+  font-weight: 700;
+}
 
 .logo {
   color: white;

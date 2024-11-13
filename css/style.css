@@ -123,6 +123,10 @@ p {
 }
 .menu__list-link:active {
   color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.menu__list-link span {
   font-weight: 700;
 }
 

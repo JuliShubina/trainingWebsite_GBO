@@ -107,7 +107,9 @@ h3 {
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
-
+.menu__list-link span {
+  font-weight: 700;
+}
 .logo {
   color: white;
   font-size: calc(20px + 4 * (100vw / 1230));
