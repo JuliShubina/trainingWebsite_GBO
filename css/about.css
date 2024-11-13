@@ -307,10 +307,14 @@ p {
   gap: 27px;
   margin-bottom: 40px;
 }
+.about__card {
+  width: 100%;
+}
 
 .about__card-img {
   position: relative;
-  padding: 0px 0px 90% 0px;
+  padding-bottom: 90%; /* Соотношение сторон 16:9 */
+  width: 100%;
 
   overflow: hidden;
 }
@@ -425,10 +429,10 @@ p {
 
   .about__cards {
     display: grid;
-    grid-template-columns: 50vw;
+    grid-template-columns: 80vw;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 40px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     justify-items: center;
     justify-content: center;
   }
