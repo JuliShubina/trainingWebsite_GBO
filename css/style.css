@@ -319,17 +319,24 @@ p {
   color: rgb(12, 89, 147);
 
   font-size: 25px;
-  margin: 0 auto;
+}
+.only-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 15px;
+  height: 15px;
   align-self: center;
 }
 
 .info-icon-container {
   position: fixed;
-  z-index: 2;
+  z-index: 20;
   top: 90vh;
   left: calc(((100vw - var(--container-width)) / 2) / 2 - 15px);
   display: flex;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   width: 40px;
   height: 40px;
@@ -372,6 +379,31 @@ p {
   pointer-events: none;
   cursor: default;
   color: rgb(187, 183, 175);
+}
+
+.popup {
+  background-color: rgba(128, 128, 128, 1);
+  border: 1px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  visibility: hidden;
+  top: 89vh;
+  left: calc(((100vw - var(--container-width)) / 2) / 2 - 18px);
+  /* transition: all 0.8s ease 0s;
+  transform: translate(-100%, 0px); */
+}
+.popup__text {
+  padding: 20px 20px 20px 60px;
+}
+
+.popup.open {
+  visibility: visible;
+  /* transition: all 0.8s ease 0s;
+  transform: translate(100%, 0px); */
 }
 
 @media (max-width: 768px) {
