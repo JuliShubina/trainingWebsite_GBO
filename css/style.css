@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("popup.css");
+@import url("./hero__icon.css");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:regular,600,800&display=swap");
 body {
@@ -242,24 +243,6 @@ p {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
-}
-
-.hero__content-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  z-index: 100;
-  left: 50%;
-  font-size: 20px;
-  top: calc(100% - 48px);
-}
-.hero__content-icon:hover {
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
-  /* background-color: rgb(12, 89, 147); */
 }
 
 /************************services-section*********************/
