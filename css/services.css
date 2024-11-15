@@ -1,4 +1,5 @@
-@import url("./reset.css");
+@import url("reset.css");
+@import url("./popup.css");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:regular,600,800&display=swap");
 body {
@@ -306,41 +307,6 @@ h3 {
   display: none;
   margin-bottom: 70px;
   text-align: justify;
-}
-
-.info-icon {
-  color: rgb(12, 89, 147);
-
-  font-size: 25px;
-  margin: 0 auto;
-  align-self: center;
-}
-
-.info-icon-container {
-  position: fixed;
-  z-index: 2;
-  top: 90vh;
-  left: calc(((100vw - var(--container-width)) / 2) / 2 - 15px);
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  width: 40px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 645px) {
-  .info-icon-container {
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 20px;
-    height: 20px;
-    right: 20px;
-    top: 20px;
-    left: auto;
-    z-index: 120;
-  }
 }
 
 /******************** footer ****************************/
