@@ -18,7 +18,6 @@
   padding-bottom: 10px;
 }
 .hero__content {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   color: white;
@@ -40,11 +39,6 @@
   }
 }
 
-/* .hero__content > h2 {
-  letter-spacing: -1px;
-  line-height: 56.24px;
-} */
-
 .hero__background {
   position: relative;
 
@@ -63,7 +57,7 @@
 
 .hero__background::before {
   content: "";
-  /* background-image: url("../images/hero-background.jpg"); */
+
   position: absolute;
   top: 0;
   left: 0;
