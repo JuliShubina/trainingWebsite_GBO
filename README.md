@@ -1,9 +1,9 @@
 <p>Учбовий сайт з авто сервіс послуг. Сайт розроблений для авто майстра з метою його представлення й реклами його послуг. Ресурс складається з чотирьох сторінок.</p>
 <ul>
-		<li><a href="index.html">Головна</a> розміщує інформацію чим займається авто мастер</li>
-		<li><a href="services.html">Послуги</a> розміщує більш детальний опис послуг які надає СТО</li>
-		<li><a href="about.html">Про нас</a> інформація про СТО</li>
-		<li><a href="contacts.html">Контакти</a> контактна інформація майстра.</li>
+		<li><a href="[text](https://julishubina.github.io/trainingWebsite_GBO/#)">Головна</a> розміщує інформацію чим займається авто мастер</li>
+		<li><a href="[text](https://julishubina.github.io/trainingWebsite_GBO/services.html)">Послуги</a> розміщує більш детальний опис послуг які надає СТО</li>
+		<li><a href="[text](https://julishubina.github.io/trainingWebsite_GBO/about.html)">Про нас</a> інформація про СТО</li>
+		<li><a href="[text](https://julishubina.github.io/trainingWebsite_GBO/about.html)">Контакти</a> контактна інформація майстра.</li>
 </ul>
 
  <p>Для того щоб сторінки були адаптивні використовуються медіа запити, відносні одиниці для задання розмірів, а також функція calc() для  перерахування розміру шрифту при зміні розміру view port , ця же функція використовується для позиціювання popup при зміні розміру view port.</p>
