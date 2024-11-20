@@ -20,33 +20,44 @@
 
  <p>Для того щоб сторінки були адаптивні використовуються медіа запити, відносні одиниці для задання розмірів, а також функція calc() для  перерахування розміру шрифту при зміні розміру view port , ця же функція використовується для позиціювання popup при зміні розміру view port. Адаптив деяких секцій реалізовано за допомогою Grid</p>
 
+### Про CSS
+
+---
+
 <ul>Стилі розбила на компоненти для зручності:
-	<li>style.css файл  стилів для головної сторінки</li>
-	<li>services.css файл стилів для сторінки "Послуги"</li>
-	<li>about.css файл стилів для сторінки "Про нас"</li>
-	<li>contacts.css файл стилів для сторінки "Контакти"</li>
-	<li>reset.css скидання стилів</li>
-	<li>popup.css файл який містить стилі для іконки info , а також інформації яку вона відображає.</li>
-	<li>hero_icon.css стилі іконки "прапорця" (checkmark) в hero  секції.</li>
-	<li>header.css стилі "шапки" (далі header)сайта.</li>
-	<li>footer.css стилі "підвалу"(далі footer) сайта.</li>
-	<li>burger.css стилі "бургер" меню.</li>
-	<li>base.css базові стилі, які притаманні для всіх сторінок.</li>
+	<li><a href="./css/style.css">style.css</a> файл  стилів для головної сторінки</li>
+	<li><a href="./css/services.css">services.css</a> файл стилів для сторінки "Послуги"</li>
+	<li><a href="./css/about.css">about.css</a> файл стилів для сторінки "Про нас"</li>
+	<li><a href="./css/contacts.css">contacts.css</a> файл стилів для сторінки "Контакти"</li>
+	<li><a href="./css/reset.css">reset.css </a>скидання стилів</li>
+	<li><a href="./css/popup.css">popup.css</a> файл який містить стилі для іконки info , а також інформації яку вона відображає.</li>
+	<li><a href="./css/hero__icon.css">hero_icon.css</a> стилі іконки "прапорця" (checkmark) в hero  секції.</li>
+	<li><a href="./css/header.css">header.css</a> стилі "шапки" (далі header)сайта.</li>
+	<li><a href="./css/footer.css">footer.css</a> стилі "підвалу"(далі footer) сайта.</li>
+	<li><a href="./css/burger.css">burger.css</a> стилі "бургер" меню.</li>
+	<li><a href="./css/base.css">base.css</a> базові стилі, які притаманні для всіх сторінок.</li>
 </ul>
-	<p>За допомогою java script на сайте реализовано  декілька подій.</p>
+
+### Про скрипти
+
+---
+
+<p>За допомогою java script на сайте реализовано  декілька подій.</p>
 	 <ul>
 		А саме:
-			<li> "бургер" меню (burger.js)</li>
-			<li>зміна кольору фона header  при скролі (header.js)</li>
-			<li>з'являється іконка  "прапорця" при альбомній орієнтації мобільних телефонів  (hero_icon_visibility.js)</li>
-			<li>скролить фон hero section(hero_icon.js)</li>
-			<li> додає стилі при наведенні мишки на hero_icon (по типу hover) (info_icon-hover.js)</li>
-			<li>змінює колір фону іконки info_icon при перетині її з header та footer(intersection.js)</li>
-			<li>при скролі повільніше скролить hero__background (parallax.js)</li>
-			<li>при клікі на іконці info_icon з’являється повідомлення (popup.js)</li>
-			<li> згортає та розгортає спойлер на сторінці "Послуги" (spoiler.js)</li>
+			<li> "бургер" меню (<a href="./js/burger.js">burger.js</a>)</li>
+			<li>зміна кольору фона header  при скролі (<a href="./js/header.js">header.js</a>)</li>
+			<li>з'являється іконка  "прапорця" при альбомній орієнтації мобільних телефонів  (<a href="./js/hero_icon_visibility.js">hero_icon_visibility.js</a>)</li>
+			<li>скролить фон hero section(<a href="./js/hero_icon.js">hero_icon.js</a>)</li>
+			<li> додає стилі при наведенні мишки на hero_icon (по типу hover) (<a href="./js/info_icon-hover.js">info_icon-hover.js</a>)</li>
+			<li>змінює колір фону іконки info_icon при перетині її з header та footer(<a href="./js/intersection.js">intersection.js</a>)</li>
+			<li>при скролі повільніше скролить hero__background (<a href="./js/parallax.js">parallax.js</a>)</li>
+			<li>при клікі на іконці info_icon з’являється повідомлення (<a href="./js/popup.js">popup.js</a>)</li>
+			<li> згортає та розгортає спойлер на сторінці "Послуги" (<a href="./js/spoiler.js">spoiler.js</a>)</li>
 	 </ul>
-
+	 
+### Плани
+---
 <ol>
 	Планую переробити:
 	<li>Увесь сайт на single page за  допомогою React.</li>
